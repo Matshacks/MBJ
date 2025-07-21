@@ -1,6 +1,8 @@
 # Minecraft Bot Dashboard
 
-👉 **[Launch the App](https://matshacks.github.io/MBJ/Minecraft-Bot-Joiner/client/index.html)**
+👉 **[Launch the App](https://matshacks.github.io/MBJ/index.html)**
+
+> ⚠️ *Note: If the link above shows a blank page, the web interface may not be correctly set up yet. The main server file is `Minecraft-Bot-Joiner/server/index.ts`, but this is not meant to be opened in the browser. For help setting up your dashboard, check your documentation, or ask for help in the issues tab!*
 
 A full-stack web application that provides a dashboard interface for managing and monitoring a Minecraft bot. The application consists of a React frontend and a Node.js backend.
 
