@@ -1,9 +1,16 @@
 # Minecraft Bot Dashboard
-👉 **[Launch the App](https://matshacks.githubfull-stack web application that provides a dashboard interface for managing and monitoring a Minecraft bot. The application consists of a React frontend with a Node.js/Express backend, using PostgreSQL for data storage and WebSocket connections for real-time communication. The bot is currently configured to connect to example.com:12345 with fully editable server configuration.
+
+👉 **[Launch the App](https://matshacks.github.io/MBJ/Minecraft-Bot-Joiner/client/index.html)**
+
+A full-stack web application that provides a dashboard interface for managing and monitoring a Minecraft bot. The application consists of a React frontend and a Node.js backend.
+
+---
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+---
 
 ## System Architecture
 
@@ -15,6 +22,8 @@ The application follows a modern full-stack architecture with clear separation b
 - **Real-time Communication**: WebSocket for live updates
 - **UI Framework**: Radix UI components with shadcn/ui styling
 - **Styling**: Tailwind CSS with custom theming
+
+---
 
 ## Key Components
 
@@ -36,13 +45,17 @@ The application uses Drizzle ORM with PostgreSQL, defining two main tables:
 - **bot_configs**: Stores bot configuration settings (username, server details, reconnection settings)
 - **log_entries**: Stores application and bot logs with timestamps and log levels
 
+---
+
 ## Data Flow
 
-1. **Configuration Management**: Users can view and edit bot settings (username, server IP, port) through an intuitive web interface with form validation
-2. **Bot Control**: Start/stop bot operations via API endpoints with real-time status updates
-3. **Real-time Updates**: WebSocket connection provides live bot status and log streaming
-4. **Persistent Storage**: Bot configurations and logs are stored in PostgreSQL
-5. **Error Handling**: Comprehensive error handling with user-friendly notifications
+1. **Configuration Management**: Users can view and edit bot settings (username, server IP, port) through an intuitive web interface with form validation.
+2. **Bot Control**: Start/stop bot operations via API endpoints with real-time status updates.
+3. **Real-time Updates**: WebSocket connection provides live bot status and log streaming.
+4. **Persistent Storage**: Bot configurations and logs are stored in PostgreSQL.
+5. **Error Handling**: Comprehensive error handling with user-friendly notifications.
+
+---
 
 ## External Dependencies
 
@@ -59,6 +72,8 @@ The application uses Drizzle ORM with PostgreSQL, defining two main tables:
 - **TypeScript**: Static type checking
 - **Tailwind CSS**: Utility-first CSS framework
 - **ESBuild**: Fast bundling for production builds
+
+---
 
 ## Deployment Strategy
 
@@ -82,6 +97,8 @@ The application is configured for deployment with the following approach:
    - Connection pooling and error handling
 
 The architecture supports both development and production environments, with hot module replacement in development and optimized builds for production deployment.
+
+---
 
 ## Recent Changes
 
