@@ -1,8 +1,5 @@
 # Minecraft Bot Dashboard
-
-## Overview
-
-This is a full-stack web application that provides a dashboard interface for managing and monitoring a Minecraft bot. The application consists of a React frontend with a Node.js/Express backend, using PostgreSQL for data storage and WebSocket connections for real-time communication. The bot is currently configured to connect to example.com:12345 with fully editable server configuration.
+👉 **[Launch the App](https://matshacks.githubfull-stack web application that provides a dashboard interface for managing and monitoring a Minecraft bot. The application consists of a React frontend with a Node.js/Express backend, using PostgreSQL for data storage and WebSocket connections for real-time communication. The bot is currently configured to connect to example.com:12345 with fully editable server configuration.
 
 ## User Preferences
 
